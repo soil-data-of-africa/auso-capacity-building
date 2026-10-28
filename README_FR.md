@@ -28,7 +28,9 @@ Toute campagne commence par une analyse approfondie visant à déterminer les me
 
 ### Organisation de l'échantillonnage
 
-Un outil de type SDMT (outil de gestion et de conception d'échantillonnage) peut faciliter l'organisation d'une campagne de prélèvement. - [Soils for Africa – Manuel SDMT](https://doi.org/10.3030/862900)
+Un outil de type SDMT (outil de gestion et de conception d'échantillonnage) peut faciliter l'organisation d'une campagne de prélèvement. 
+
+- [Soils for Africa – Manuel SDMT](https://doi.org/10.3030/862900)
 
 ### Travail de terrain et échantillonnage des sols
 
@@ -54,7 +56,9 @@ Préparation des échantillons, méthodes analytiques, assurance/contrôle quali
 
 ### Préparation et expédition des échantillons
 
-Une préparation et une expédition minutieuses des échantillons permettent d'éviter toute perte de qualité. - [Préparation et expédition des échantillons](https://doi.org/10.3030/862900)
+Une préparation et une expédition minutieuses des échantillons permettent d'éviter toute perte de qualité. 
+
+- [Préparation et expédition des échantillons](https://doi.org/10.3030/862900)
 
 ### Analyses en laboratoire
 
@@ -91,7 +95,9 @@ Pour regrouper des données provenant de sources variées au sein d'un jeu de do
 
 ### Modélisation et cartographie des sols
 
-Dans de nombreux cas, les cartes des sols sont élaborées par des experts du domaine, qui identifient des zones géographiques présentant des caractéristiques distinctives — souvent récurrentes — en matière de relief, de lithologie, de morphologie de surface, de pente, de matériau parental et de type de sol. Par ailleurs, la cartographie numérique des sols (*Digital Soil Mapping*) repose sur une approche technologique permettant de prédire la répartition des propriétés des sols dans l'espace et dans le temps, en utilisant des données d'observation existantes ainsi que des covariables, telles que le modèle numérique d'élévation, l'indice de surface foliaire, la géologie ou encore l'hydrologie. - [Bases de données numériques mondiales et nationales sur les sols et les terrains (SOTER)](https://files.isric.org/public/documents/isric_report_2013_04.pdf)
+Dans de nombreux cas, les cartes des sols sont élaborées par des experts du domaine, qui identifient des zones géographiques présentant des caractéristiques distinctives — souvent récurrentes — en matière de relief, de lithologie, de morphologie de surface, de pente, de matériau parental et de type de sol. Par ailleurs, la cartographie numérique des sols (*Digital Soil Mapping*) repose sur une approche technologique permettant de prédire la répartition des propriétés des sols dans l'espace et dans le temps, en utilisant des données d'observation existantes ainsi que des covariables, telles que le modèle numérique d'élévation, l'indice de surface foliaire, la géologie ou encore l'hydrologie. 
+
+- [Bases de données numériques mondiales et nationales sur les sols et les terrains (SOTER)](https://files.isric.org/public/documents/isric_report_2013_04.pdf)
 - [Préparation des données pour la cartographie numérique des sols (DSM)](https://resources.isric.org/tutorial/dsm_data_preparation/)
 - [Géostatistique pour la cartographie des sols](doi.org/10.17027/isric-fdtz-ma12)
 - [Apprentissage automatique pour la cartographie numérique des sols](doi.org/10.17027/isric-krcc-9045)
