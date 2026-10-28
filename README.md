@@ -105,13 +105,54 @@ Leaf area index, geology, hydrology.
 - [Data preparation for DSM](https://resources.isric.org/tutorial/dsm_data_preparation/)
 - [Geostatistics for soil mapping](doi.org/10.17027/isric-fdtz-ma12)
 - [Machine Learning for Digital Soil Mapping](doi.org/10.17027/isric-krcc-9045)
-  
+
+## Share data products
+
+For optimal reuse, make your soil data products available to various communities.
+Archive your product in a repository with relevant metadata and a persistent identifier for the research community. 
+Subsequently consider to create dedicated publications for selected communities, to increase 
+the visibility and usability of the product.
+
+### Search engines and Large language models
+
+Search engines prefer metadata based on [schema.org](https://schema.org). Most academic repositories or aggregators facilitate findability in search engines, so you don't need to provide alternative metadata formats yourself. However you can verify the presence of proper metadata via [schema validator](https://validator.schema.org) and dataset findability in [dataset search](https://datasetsearch.research.google.com/search).
+
+Large language models prefer datasets in a CSV, Parquet, or JSON-LD format. Alongside the data, they recommend a structured data dictionary file explaining the columns in the dataset (identifiers, definitions, units, methods, and relationships between concepts), as well as metadata or a report with details about provenance and quality (sampling design, preparation, instruments, laboratory protocols, detection limits, uncertainty, calibration, and data-processing history).
+
+The metadata and data dictionary should reference, where possible, common definitions in vocabularies such as Agrovoc, Gemet, Glosis-LD, EUSoilVoc.
+
+### Earth Observation
+
+The Earth Observation community commonly uses [Google Earth Engine](https://earthengine.google.com/) to exchange data. Google Earth Engine expects 
+cloud optimized formats, such as [Cloud Optimized GeoTiff](https://cogeo.org/), CSV/Shape for vector data, and metadata encoded as [STAC](https://stacspec.org/en/about/stac-spec/).
+
+### Geospatial 
+
+In the geospatial community typical products and conventions are used which enable extraction of a small portion of a dataset or 
+facilitate visualization of the dataset.
+
+*Grid data*
+
+Sharing Digital soil maps and other gridded data.
+
+- [Grid data as Web Coverage Services (WCS) via mapserver](https://mapserver.github.io/getting-started-with-mapserver/outputs/wcs/)
+- [Cloud Optimized GeoTiff in an interactive webpage (OpenLayers)](https://github.com/openlayers/workshop/blob/main/doc/en/cog/README.md)
+
+*Vector data*
+
+Sharing traditional soil maps and soil observation point data.
+
+- [Sharing polygon maps with mapserver via Web Feature Service](https://mapserver.github.io/getting-started-with-mapserver/outputs/wfs/)
+- [GLOSIS LD](https://glosis-ld.github.io/glosis/) is an semantic web ontology following the ISO28258 standard for soil observation data exchange
+- [Sensorthings API](https://ogcapi.ogc.org/sensorthings/) is an OGC standard to exchange sensor data, such as measurements on soil samples. [Frost server](https://github.com/FraunhoferIOSB/FROST-Server) implements SensorThings API, [QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_ogc/ogc_client_support.html#sensorthings) can be used as a client. 
+- [WoSIS - GraphQL](https://graphql.isric.org/#WoSIS-section) provides a graphql based interaction to select relevant soil data
+
 ## Data usage for decision support 
 
-Soil maps can be used to support decision making. For optimal reuse make your maps available to various communities.
+Soil maps can be used to support decision making. 
 
 - [Basic Raster Styling and Analysis (QGIS3)](https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html)
 - [Tutorial on using Soilgrids from python](https://git.wur.nl/isric/soilgrids/soilgrids.notebooks)
-- [Cloud Optimized GeoTiff in OpenLayers](https://github.com/openlayers/workshop/blob/main/doc/en/cog/README.md)
 - [Introduction to rasters with terra (R)](https://emlab-ucsb.github.io/intro-terra/)
+- Dashboards such as the [Africa Soilhealth dashboard prototype](https://esdac.jrc.ec.europa.eu/esdacviewer/africa-dashboard/) provide visualization options beyond spatial aspects of a dataset. [R-shiny](https://shiny.posit.co/), [Streamlit](https://streamlit.io/), [Apache Superset](https://superset.apache.org), [Quarto dashboards](https://quarto.org/docs/dashboards/), [Jupyter notebooks](https://jupyter.org/) are common platforms to generate dashboards in.
 
