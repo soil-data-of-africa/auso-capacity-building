@@ -1,8 +1,20 @@
 # AUSO capacity building
 
-Various partners have indicated that capacity building is an important goal of AUSO. In this repo we will collect some existing capacity building materials for various AUSO related topics. The materials are clustered around typical steps in the soil data organization workflow.
+This page brings together training materials, practical guides, tools and standards that support capacity development across the soil information workflow.
 
-We welcome you to verify the materials and provide feedback on lacking details or ideas via [github issues](https://github.com/soil-data-of-africa/auso-capacity-building/issues).
+The resources cover the main stages of working with soil data: planning and field sampling, laboratory analysis, soil sample archiving, data organisation and harmonisation, soil modelling and mapping, and the dissemination and use of soil information.
+
+The collection is intended for soil scientists, laboratory staff, data managers, mapping specialists and organisations developing or maintaining soil information systems, particularly in Africa.
+
+Resources are grouped by workflow stage to help users find relevant materials for their work. Where possible, each entry describes the learning objectives, intended audience, prerequisites, language, format and licensing conditions.
+
+This is a collaborative and evolving collection. We welcome suggestions for additional resources, corrections to existing entries and feedback on topics that need better coverage. Please contribute through [GitHub Issues](https://github.com/soil-data-of-africa/auso-capacity-building/issues).
+
+## Needs assessment and planning 
+
+Before setting up a campaign, it is important to understand user requirements, data inventory and sampling objectives.
+
+- The [SIS framework](https://resources.isric.org/sis-framework/) provides a methodology to assess the requirements of a soil information system
 
 ## Field work
 
@@ -31,12 +43,7 @@ Various approaches and guidances exist on how to execute the field work
 
 A [series of videos](https://www.youtube.com/@soils4africa373/videos) in various languages has been produced by the Soils for Africa project for field work and sample treatment
 
-### Sample Preparation and Shipment 
 
-Careful preparation and shipment of samples prevents quality loss.
-
-- [Sample Preparation and Shipment](https://doi.org/10.3030/862900)
-  
 ### Soil Classification
 
 During a field work, soils are typically classified according to local and/or global classification systems
@@ -46,10 +53,26 @@ During a field work, soils are typically classified according to local and/or gl
 
 ## Laboratory
 
-Alignment of laboratory procedures is key for interoperability
+Sample preparation, analytical methods, QA/QC and laboratory data management.
 
-- [Guidance_Laboratory_Analysis](https://africasis.isric.org/res/files/Soils4Africa_D3.4_Guidance_Laboratory_Analysis_v01.pdf)
+### Sample Preparation and Shipment 
+
+Careful preparation and shipment of samples prevents quality loss.
+
+- [Sample Preparation and Shipment](https://doi.org/10.3030/862900)
+
+### Laboratory Analysis
+  
+- [Guidance Laboratory Analysis](https://africasis.isric.org/res/files/Soils4Africa_D3.4_Guidance_Laboratory_Analysis_v01.pdf)
 - [FAO Glosolan - Standard Operating Procedures](https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/networks/the-glosolan/standard-operating-procedures-(sops)/en)
+
+### QA/QC
+
+- [Quality assurance and control (QA/QC)](https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/networks/the-glosolan/qa-qc/en?utm_source=chatgpt.com)
+
+## Soil sample archiving 
+
+Physical sample storage, sample identifiers, inventories and long-term preservation
 
 ## Data processing
 
@@ -66,16 +89,19 @@ Data is best archived following the FAIR principles in persistent repositories, 
 
 To bring data from various sources together into a single dataset, it is important to align data formats as well as data for different observed properties, units and analysis methods. A pH value measured in a 1:2.5 suspension is typically not the same as measured in a 1:10 suspension. Some transfer functions are described to transform between various method alternatives.
 
-- [iso28258 database](https://github.com/ISRICWorldSoil/iso-28258) ISRIC maintains a PostGreSQL database model, set up according to the iso28258 standard, to capture soil observation data with full metadata
+- [ISO 28258 - soil data model and implementation](https://github.com/ISRICWorldSoil/iso-28258) ISRIC maintains a PostGreSQL database model, set up according to the iso28258 standard, to capture soil observation data with full metadata 
 - [Soilwise - Observation data encodings](https://soilwise-he.github.io/soil-observation-data-encodings/)
 - [Soilharmony - Transfer functions](https://github.com/soilharmony) the project is currently in starting phase but is expected to provide good overview of existing knowledge on transfer functions
+- [ISRIC - Development of harmonised global and continental soil information products](https://isric.org/focus-areas/soil-information-products/)
 
-### (Digital) Soil Mapping
+### Soil modelling and mapping
 
-Traditionally soil maps are created by experts in the field. Alternatively Digital Soil Mapping is a technology 
+In many cases soil maps are created by experts in the field, by identification of areas of land with a distinctive, often repetitive,
+pattern of landform, lithology, surface form, slope, parent material, and soil. Alternatively Digital Soil Mapping is based on a technology 
 which predicts the distribution of soil properties in space and time, using existing soil observation data and covariates, such as Digital elevation, 
 Leaf area index, geology, hydrology.
 
+- [Global and National Soils and Terrain Digital Databases (SOTER)](https://files.isric.org/public/documents/isric_report_2013_04.pdf)
 - [Data preparation for DSM](https://resources.isric.org/tutorial/dsm_data_preparation/)
 - [Geostatistics for soil mapping](doi.org/10.17027/isric-fdtz-ma12)
 - [Machine Learning for Digital Soil Mapping](doi.org/10.17027/isric-krcc-9045)
@@ -85,6 +111,7 @@ Leaf area index, geology, hydrology.
 Soil maps can be used to support decision making. For optimal reuse make your maps available to various communities.
 
 - [Basic Raster Styling and Analysis (QGIS3)](https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html)
+- [Tutorial on using Soilgrids from python](https://git.wur.nl/isric/soilgrids/soilgrids.notebooks)
 - [Cloud Optimized GeoTiff in OpenLayers](https://github.com/openlayers/workshop/blob/main/doc/en/cog/README.md)
 - [Introduction to rasters with terra (R)](https://emlab-ucsb.github.io/intro-terra/)
 
