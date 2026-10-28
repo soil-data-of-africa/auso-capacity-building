@@ -6,9 +6,7 @@ We welcome you to verify the materials and provide feedback on lacking details o
 
 ## Field work
 
-Field studies require careful preparation.
-- where/when to sample
-- how to sample
+Field studies require careful preparation, to be as effective as possible.
 
 ### Sampling design
 
@@ -31,7 +29,7 @@ Various approaches and guidances exist on how to execute the field work
 - [AfSIS LSDF field guide](https://www.landscapealliance.org/publications/pdf/guide/45871-LDSF-Field-Guide-2025.pdf)
 - [Soils 4 Africa; fieldwork guidance](https://africasis.isric.org/res/files/Soils4Africa_D3.3_Guidance_Fieldwork_v01_FINAL.pdf)
 
-A series of videos has been produced by the Soils for Africa project for field work and sample treatment
+A [series of videos](https://www.youtube.com/@soils4africa373/videos) in various languages has been produced by the Soils for Africa project for field work and sample treatment
 
 ### Sample Preparation and Shipment 
 
@@ -82,7 +80,7 @@ Leaf area index, geology, hydrology.
 - [Geostatistics for soil mapping](doi.org/10.17027/isric-fdtz-ma12)
 - [Machine Learning for Digital Soil Mapping](doi.org/10.17027/isric-krcc-9045)
   
-## Data usage for decision suppor 
+## Data usage for decision support 
 
 Soil maps can be used to support decision making. For optimal reuse make your maps available to various communities.
 
